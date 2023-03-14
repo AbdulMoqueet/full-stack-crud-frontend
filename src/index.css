@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+main{
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+.title{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.input_holder{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+input, button{
+  padding: 10px;
+}
+
+ul{
+  list-style: none;
+  margin-top: 20px;
+}
+
+li{
+  background-color: rgb(216, 216, 216);
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon_holder{
+  display: flex;
+  gap: 10px;
+}
+
+.icon{
+  cursor: pointer;
+}
